@@ -11,4 +11,4 @@ In my initial approach, each sequence is one-hot-encoded as an array with shape 
 The current result has a validation AUC of 0.86 which corresponds to a kaggle score of 0.25. This is my initial working model without paramet tuning and transfer learning.
 
 # Future Work
-Protein sequence embeding (transfer learning) and parameter tuning are on my plan to improve the result.
+Protein sequence embeding (transfer learning) and parameter tuning are on my plan to improve the current result.
