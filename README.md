@@ -8,7 +8,7 @@ Due to the large number of non-exclusive targets in this multi-label classificat
 In my initial approach, each sequence is one-hot-encoded as an array with shape (sequence_length,27) which the CNN then process. One-hot-encoding all training data costs 50 GB of ram which my labtop doesn't have. As a resolution, I wrote a data generator which generates batches of encoded data during the training sessions to avoid overwhelming the ram.
 
 # Current Result (Updated 05/24/2023)
-The current result has a validation AUC of 0.86 which corresponds to a kaggle score of 0.25. This is my initial working model without paramet tuning and transfer learning.
+The current result has a validation AUC of 0.86 which corresponds to a kaggle score of 0.25. This is my initial working model without parameter tuning and transfer learning.
 
 # Future Work
 Protein sequence embeding (transfer learning) and parameter tuning are on my plan to improve the current result.
